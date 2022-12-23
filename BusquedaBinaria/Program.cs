@@ -36,7 +36,7 @@ class Program
         Console.Write("\n\nIngrese numero a buscar: ");
         int x = Convert.ToInt32(Console.ReadLine());
 
-        // Busqueda lineal y tiempo de ejecucion de metodo BusquedaLinealID
+        // Busqueda lineal y tiempo de ejecucion de metodo BusquedaBinaria
         DateTime inicio = DateTime.Now;
         int pos = BusquedaBinaria(A, x);
         TimeSpan tiempoTranscurrido = DateTime.Now.Subtract(inicio);
